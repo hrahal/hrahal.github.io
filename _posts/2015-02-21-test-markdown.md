@@ -17,21 +17,24 @@ localhost:9200/{index}/{type}/
 
 For example the following two documents can't co-exist since they share the same index, and both have a _city_ attribute of different types, _string_ and _object_ respectively 
 
-`
+```
 localhost:9200/test/users/1
-
+```
+```
 {
     "city": "cityID123"
 }
-
+```
+```
 localhost:9200/test/city/1
-
+```
+```
 {
     "city": {
         "name": "Toronto"
     }
 }
-`
+```
 
 When developing with elasticsearch there are 3 main steps we have to consider. **Mapping**, **Indexing**, and **Searching** data
 
