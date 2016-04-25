@@ -3,4 +3,4 @@ layout: post
 title: First post!
 ---
 
-This is my first post, how exciting test!
+<iframe src="//slides.com/hasanrahal/nodeasync/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
