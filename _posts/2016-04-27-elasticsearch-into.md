@@ -1,3 +1,8 @@
+---
+layout: post
+title: Elasticsearch Intro
+---
+
 ###Indices and types 
 Every time you store data in _Elasticsearch_ it get's saved inside an **index** which has a **type**. compared to _MongoDB_ an index is similar to a database, and a type similar to a collection. Compared to _SQL_ an index would be like a database, and a type like a table.
 
