@@ -109,7 +109,7 @@ sudo apt-get install ntp
 
 ### install packages
 
-####nodejs, npm, express, bower: 
+#### nodejs, npm, express, bower: 
 ```sh
 sudo apt-get update
 sudo apt-get install nodejs
@@ -120,7 +120,7 @@ npm install express -g
 npm install bower -g
 ```
 
-####MongoDB
+#### MongoDB
 
 import public key
 ```sh
