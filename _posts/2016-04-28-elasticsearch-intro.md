@@ -38,7 +38,7 @@ localhost:9200/test/city/1
 
 When developing with elasticsearch there are 3 main steps we have to consider. **Mapping**, **Indexing**, and **Searching** data
 
-### 1. Mapping ###
+### 1. Mapping
 
 Mapping is used to define how elastic should store and index a particular document and it's fields. 
 
@@ -171,7 +171,7 @@ POST localhost:9200/test/users/MyID123
 
 Now what we have our data indexed let's move forward to query it.
 
-###3. Searching
+### 3. Searching
 
 In this section we will cover ES _Queries_, _Filters_, and _Aggregations_ for search
 
@@ -223,7 +223,7 @@ on the top level hits.total is the total number of the docs we using an empty se
 
 in the __shards.total_ value is the number of lucene Indexed that elasticsearch created for that index. The default number is always 5 unless we specify otherwise on index creation time. more about shards is explained [here](https://www.elastic.co/guide/en/elasticsearch/guide/current/_add_an_index.html) 
 
-####a. Queries 
+#### a. Queries 
 
 Queries is what we use to get results with **scoring** (relevance)
 
@@ -352,7 +352,7 @@ Where _must_ is and array that implies **AND**. _bool_ also supports _should_ im
 
 Moreover we used the _range_ query with age "lt" **less than** 40. where _range_ also supports "lte", "gt", and "gte" 
 
-####b. Filters 
+#### b. Filters 
 
 Filters are **non-scoring** queries that can be used if the score has no importance. It's returns a _boolean_ that answers with yes or no **where the score is always = 1**
 
@@ -464,7 +464,7 @@ This will return only 1 user Bam **scoring**  1.0253175.
 So as ES states it: "As a general rule, use query clauses for full-text search or for any condition that should affect the relevance score, and use filters for everything else."
 
 
-####c. Aggregations
+#### c. Aggregations
 
 [Aggregations](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations.html) is a big part of elasticseach it is used to calculate stats about our data. Divided into 3 different types: 
 
