@@ -99,7 +99,7 @@ If everything goes well, we should get the following response:
 
 Now that we told elasticsearch what kind of data we want to insert, let's go ahead and index/store it.
 
-###2. Indexing
+### 2. Indexing
 
 Indexing/storing is the process of inserting data to ES to make it **searchable** using the _Index API_.
 
