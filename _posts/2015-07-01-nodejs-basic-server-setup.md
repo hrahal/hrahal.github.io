@@ -15,6 +15,7 @@ standards for setting up Ubuntu, node, MongoDB, nginx, pm2 env for stagging and 
 ```sh
 $ ssh root@ipnumber
 ```
+
 ### users
 
 add users to group
@@ -110,6 +111,7 @@ sudo apt-get install ntp
 ### install packages
 
 #### nodejs, npm, express, bower: 
+
 ```sh
 sudo apt-get update
 sudo apt-get install nodejs
