@@ -427,6 +427,7 @@ POST localhost:9200/test/users/_search
  - level = "super awesome", and age < 40 but only return gender = "male"
 
 we would write:
+
 ```
 POST localhost:9200/test/users/_search
 
