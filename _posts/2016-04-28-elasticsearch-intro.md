@@ -38,7 +38,7 @@ localhost:9200/test/city/1
 
 When developing with elasticsearch there are 3 main steps we have to consider. **Mapping**, **Indexing**, and **Searching** data
 
-###1. Mapping
+### 1. Mapping ###
 
 Mapping is used to define how elastic should store and index a particular document and it's fields. 
 
