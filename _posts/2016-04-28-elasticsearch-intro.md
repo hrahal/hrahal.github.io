@@ -3,6 +3,19 @@ layout: post
 title: Elasticsearch Intro
 ---
 
+ElasticSearch is an open source, RESTful search engine built on top of Apache Lucene and released under an Apache license. It is Java-based and can search and index document files in diverse formats.
+
+ElasticSearch has been compared to Apache Solr and offers several notable features:
+
+ - Provides a scalable search solution.
+ - Performs near-real-time searches.
+ - Provides support for multi-tenancy.
+ - An index can be easily recovered in a case of a server crash.
+ - Uses Javascript Object Notation (JSON) and Java application program interfaces (APIs).
+ - Automatically indexes JSON documents.
+ - Each index can have its own settings.
+ - Searches can be done with Lucene-based querystrings.
+
 Indices and types
 -------
 Every time you store data in _Elasticsearch_ it gets saved inside an **index** which has a **type**. compared to _MongoDB_ an index is similar to a database, and a type similar to a collection. Compared to _SQL_ an index would be like a database, and a type like a table.
